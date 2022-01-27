@@ -13,7 +13,7 @@ $(window).on('load', function() {
 		Preloder
 	--------------------*/
 	$(".loader").fadeOut();
-	$("#preloder").delay(400).fadeOut("slow");
+	$("#preloder").delay(100).fadeOut("slow");
 
 	/*------------------
 		Masonry
@@ -155,7 +155,7 @@ $(window).on('load', function() {
 		animateIn: 'fadeIn',
 		items: 1,
 		autoplay: true,
-		smartSpeed: 1000,
+		smartSpeed: 3000,
 	});
 
 	/*------------------
